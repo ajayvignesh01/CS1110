@@ -1,0 +1,6 @@
+character = input("Enter a character: ")
+width = input("Width: ")
+print(character * int(width))
+print(character, character, sep=' ' * (int(width)-2))
+print(character * int(width))
+print('"' + character + '" ' + 'rectangle has a width of ' + width)
